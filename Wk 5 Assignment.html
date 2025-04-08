@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR YOU, FROM ME</title>
+    <script src="jsscript.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">FOR YOU, FROM ME</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#delivery">Delivery</a></li>
+                <li><a href="#dance">Dance</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="services">
+            <h1>For You, From Me</h1>
+            <h2>Services made For You</h2>
+            <ol type="I">
+                <li>Travel and Vacations</li>
+                <li>Catering Services</li>
+                <li>Online Shopping</li>
+                <li>Education Scholarships</li>
+                <li>Reconnection with folks</li>
+            </ol>
+        </section>
+
+        <section id="delivery">
+            <h2>We deliver any where you point on the World map</h2>
+            <img src="https://images.pexels.com/photos/6867964/pexels-photo-6867964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Delivery Image from Pexels">
+        </section>
+
+        <section id="dance">
+            <h2>Lemme welcome you with a little dancy dance</h2>
+            <iframe src="https://player.vimeo.com/video/25952007" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="inspiration">
+            <h2>Are you ready?....Giddy Up!</h2>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h2>First Ask for God's Guideness in your endevours...listen to this</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1mg27ci1uDANuJ2ghZBrir?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+
+        <section id="contacts">
+            <h2>Celebrities who aspire us!</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Johnny Depp</td><td>Los Angeles, CA</td><td>+123723232323</td><td>jdepp@gmail.com</td></tr>
+                    <tr><td>Kevin Hart</td><td>Tarzana, CA</td><td>+234724242424</td><td>kevhart@gmail.com</td></tr>
+                    <tr><td>Kendall Jenner</td><td>Los Angeles, CA</td><td>+789789898989</td><td>kenjen@gmail.com</td></tr>
+                    <tr><td>Angelina Jolie</td><td>Los Angeles, CA</td><td>+678778787878</td><td>angiejoly@gmail.com</td></tr>
+                    <tr><td>Tom Welling</td><td>Beverly Hills, CA</td><td>+456756565656</td><td>tommWells@gmail.com</td></tr>
+                    <tr><td>Denzel Washington</td><td>Toluca Lake, CA</td><td>+345757575757</td><td>denzyW@gmail.com</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="register">
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a strong password" required><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select a country</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="ca">Canada</option>
+                    <option value="au">Australia</option>
+                    <option value="za">South Africa</option>
+                    <option value="zw">Zimbabwe</option>
+                    <option value="ke">Kenya</option>
+                    <option value="ng">Nigeria</option>
+                    <option value="gh">Ghana</option>
+                    <option value="et">Ethiopia</option>
+                </select><br><br>
+                <label>Gender:</label> <br>
+                <input type="radio" id="male" name="gender" value="male" required><label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required><label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required><label for="other">Other</label><br><br>
+                <label>WHATCHU ON MY GUY??:</label> <br>
+                <input type="checkbox" id="sports" name="interests" value="sports"><label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interests" value="music"><label for="music">Music</label>
+                <input type="checkbox" id="reading" name="interests" value="reading"><label for="reading">Reading</label>
+                <input type="checkbox" id="travel" name="interests" value="travel"><label for="travel">Travel</label>
+                <input type="checkbox" id="cooking" name="interests" value="cooking"><label for="cooking">Cooking</label>
+                <input type="checkbox" id="gaming" name="interests" value="gaming"><label for="gaming">Gaming</label>
+                <input type="checkbox" id="coding" name="interests" value="coding"><label for="coding">Coding</label>
+                <input type="checkbox" id="movies" name="interests" value="movies"><label for="movies">Movies</label>
+                <input type="checkbox" id="fashion" name="interests" value="fashion"><label for="fashion">Fashion</label>
+                <input type="checkbox" id="dancing" name="interests" value="dancing"><label for="dancing">Dancing</label>
+                <input type="checkbox" id="singing" name="interests" value="singing"><label for="singing">Singing</label>
+                <input type="checkbox" id="drawing" name="interests" value="drawing"><label for="drawing">Drawing</label>
+                <input type="checkbox" id="painting" name="interests" value="painting"><label for="painting">Painting</label>
+                <input type="checkbox" id="photography" name="interests" value="photography"><label for="photography">Photography</label><br><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+
+</html>
